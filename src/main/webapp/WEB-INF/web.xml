@@ -4,16 +4,72 @@
 
 <web-app>
 
-  <display-name>Hello World</display-name>
+  <display-name>servlet-basic-dir</display-name>
 
   <servlet>
-    <servlet-name>Hello</servlet-name>
-    <servlet-class>com.mycompany.hello.HelloServlet</servlet-class>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>Welcome</servlet-class>
   </servlet>
 
+  <servlet>
+  <servlet-name>ServEx_2</servlet-name>
+    <servlet-class>ServEx_2</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_2_Handler</servlet-name>
+    <servlet-class>ServEx_2_Handler</servlet-class>
+  </servlet>
+
+
+  <servlet>
+  <servlet-name>ServEx_3</servlet-name>
+    <servlet-class>ServEx_3</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_4</servlet-name>
+    <servlet-class>ServEx_4</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_4_Handler</servlet-name>
+    <servlet-class>ServEx_4_Handler</servlet-class>
+  </servlet>
+
+
+
+
+
   <servlet-mapping>
-    <servlet-name>Hello</servlet-name>
-    <url-pattern>/hello</url-pattern>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/welcome</url-pattern>
   </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_2</servlet-name>
+    <url-pattern>/servEx_2</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_2_Handler</servlet-name>
+    <url-pattern>/servEx_2/handling-form</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_3</servlet-name>
+    <url-pattern>/servEx_3</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_4</servlet-name>
+    <url-pattern>/servEx_4</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_4_Handler</servlet-name>
+    <url-pattern>/servEx_4/handling-form</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>

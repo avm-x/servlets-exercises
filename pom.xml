@@ -31,6 +31,6 @@
       </dependency>
   </dependencies>
   <build>
-    <finalName>servlet-basic-dir</finalName>
+    <finalName>servlets-exercises</finalName>
   </build>
 </project>
