@@ -22,6 +22,10 @@
         <br/><a href="http://localhost:8080/servlets-exercises/servEx_4">click here.</a>
     </li>
     <li>
+        [o] 5.- Write a Servlet program to insert a record into the database and display “Record inserted.” 
+        if record is inserted successfully or “Can't insert a record.” message if unsuccessful. The database is “EmpDb”, 
+        table name is “employee” and fields are empno, name, designation, phone.
+        <br/><span style="color: cyan">JDBC, PostgreSQL</span>
         <br/><a href="http://localhost:8080/servlets-exercises/servEx_5">click here.</a>
     </li>
 </ul>
