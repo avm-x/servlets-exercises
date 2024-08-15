@@ -34,10 +34,20 @@
           <artifactId>postgresql</artifactId>
           <version>42.7.3</version>
       </dependency>
-        
+      
 
   </dependencies>
   <build>
+      <plugins>            
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.2</version> <!-- Latest version as of today! -->
+          <configuration>
+            <failOnMissingWebXml>false</failOnMissingWebXml> 
+          </configuration>
+        </plugin>
+      </plugins>
     <finalName>servlets-exercises</finalName>
   </build>
 </project>
