@@ -1,0 +1,20 @@
+.displayer-cont {
+  background-color: #f3f3f3;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+th {
+  background-color: #80a9b9;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #daf3f8;
+}
+
+tr:nth-child(odd) {
+  background-color: #eefcff;
+}

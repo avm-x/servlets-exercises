@@ -42,7 +42,15 @@
     <servlet-class>ServEx_5</servlet-class>
   </servlet>
 
+  <servlet>
+  <servlet-name>ServEx_6</servlet-name>
+    <servlet-class>ServEx_6</servlet-class>
+  </servlet>
 
+  <servlet>
+  <servlet-name>ServEx_6_Handler</servlet-name>
+    <servlet-class>ServEx_6_Handler</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -79,4 +87,13 @@
     <url-pattern>/servEx_5</url-pattern>
   </servlet-mapping>
 
+  <servlet-mapping>
+    <servlet-name>ServEx_6</servlet-name>
+    <url-pattern>/servEx_6</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+
+    <servlet-name>ServEx_6_Handler</servlet-name>
+    <url-pattern>/servEx_6/handling-form</url-pattern>
+  </servlet-mapping>
 </web-app>

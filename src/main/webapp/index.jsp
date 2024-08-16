@@ -22,12 +22,21 @@
         <br/><a href="http://localhost:8080/servlets-exercises/servEx_4">click here.</a>
     </li>
     <li>
-        [o] 5.- Write a Servlet program to insert a record into the database and display “Record inserted.” 
+        [X] 5.- Write a Servlet program to insert a record into the database and display “Record inserted.” 
         if record is inserted successfully or “Can't insert a record.” message if unsuccessful. The database is “EmpDb”, 
         table name is “employee” and fields are empno, name, designation, phone.
         <br/><span style="color: cyan">JDBC, PostgreSQL</span>
         <br/><a href="http://localhost:8080/servlets-exercises/servEx_5">click here.</a>
     </li>
+    <li>
+        [o] 6._ Create a Servlet program to store product's details and facilitate to query the specific product.
+        <br/>
+        <b>requisites</b>
+        <ul>
+            <li>Dont create duplicates</li>
+            <li>"nice" interface</li>
+        </ul>
+        <br/><a href="http://localhost:8080/servlets-exercises/servEx_6">click here.</a></li>
 </ul>
 </body>
 </html>
