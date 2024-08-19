@@ -1,17 +1,22 @@
-function _formatTimeToString(h, m, s){
-    return `${h}:${m}:${s}`;
+
+let timeJson = {
+    hours: parseInt(initialTime.split(":")[0]),
+    minutes: parseInt(initialTime.split(":")[1]),
+    seconds: parseInt(initialTime.split(":")[0]),
 }
 
-// inputParams = currentTime STRING, secondsInterval INT
-// output = string with new time
-function incrementTime(currTime, secondsInterval){
-    timeArr = currTime.split(":");
 
-    seconds = Math.floor( parseInt(timeArr[2]) );
-    minutes = parseInt(timeArr[1]);
-    hours = parseInt(timeArr[0]);
+// inputParams = (timeObj Obj: h, m, s ), secondsInterval INT
+// output = (timeObj obj: h, m, s)
+function incrementTime(timeObj, secondsInterval){
+
+    let seconds = timeObj.seconds;
+    let minutes = timeObj.minutes;
+    let hours = timeObj.hours;
+
 
     seconds += secondsInterval;
+
 
     if(seconds >= 60){
         minutes++;
@@ -27,19 +32,32 @@ function incrementTime(currTime, secondsInterval){
         hours = 0;
     }
 
+    const newTimeObj = {
+        hours: hours,
+        minutes: minutes,
+        seconds: seconds,
+    }
 
-    return _formatTimeToString(hours, minutes, seconds);
+
+    return newTimeObj;
 }
 
-dHours = document.getElementById("hours");
-dMinutes = document.getElementById("minutes");
-dSeconds = document.getElementById("seconds");
+const dHours = document.getElementById("hours");
+const dMinutes = document.getElementById("minutes");
+const dSeconds = document.getElementById("seconds");
+
+function updateDomNodes(nodesArr, valuesArr){
+    for(let i = 0; i < nodesArr.length; i++){
+        nodesArr[i].textContent = valuesArr[i];
+    }
+}
+
+
+// display initial time
+// increment it
+// reassign it.
 
 setInterval(() => {
-    incrementedT = incrementTime(currTime, 1).split(":");
-    dHours.value = incrementedT[0];
-    dMinutes.value = incrementedT[1];
-    dSeconds.value = incrementedT[2];
-
-    currTime = incrementedT;
-}, 1000);
+    updateDomNodes([dHours, dMinutes, dSeconds], [timeJson.hours, timeJson.minutes, timeJson.seconds]);
+    timeJson = incrementTime(timeJson, 1);
+    }, 1000);
