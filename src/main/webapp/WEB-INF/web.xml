@@ -67,6 +67,16 @@
   <servlet-name>ServEx_8_redirect</servlet-name>
     <servlet-class>ServEx_8_redirect</servlet-class>
   </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_9</servlet-name>
+    <servlet-class>ServEx_9</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_9_handleReq</servlet-name>
+    <servlet-class>ServEx_9_handleReq</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -126,5 +136,15 @@
   <servlet-mapping>
     <servlet-name>ServEx_8_redirect</servlet-name>
     <url-pattern>/servEx_8_redirect</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_9</servlet-name>
+    <url-pattern>/servEx_9</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_9_handleReq</servlet-name>
+    <url-pattern>/servEx_9_handleReq</url-pattern>
   </servlet-mapping>
 </web-app>

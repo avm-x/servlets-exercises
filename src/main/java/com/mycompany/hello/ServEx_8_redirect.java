@@ -38,7 +38,27 @@ public class ServEx_8_redirect extends HttpServlet {
         }
 
         out.println("</table>");
+        out.println("<button id='redirect-btn'>Redirect with res.sendRedirect()!</button>");
         out.println("</BODY>");
         out.println("</HTML>");
+
+        out.println("<script>");
+        out.println("document.getElementById('redirect-btn').addEventListener('click', function() {");
+        out.println("    var xhr = new XMLHttpRequest();");
+        out.println("    xhr.open('POST', 'servEx_8_redirect', true);");
+        out.println("    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');");
+        out.println("    xhr.onreadystatechange = function() {");
+        out.println("        if (xhr.readyState === 4 && xhr.status === 200) {");
+        out.println("            window.location.href = 'servEx_8';");
+        out.println("        }");
+        out.println("    };");
+        out.println("    xhr.send('redirect=true');");
+        out.println("});");
+        out.println("</script>");
+    }
+
+    protected void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException {
+            // Handle the AJAX request for redirection
+            res.sendRedirect("http://localhost:8080/servlets-exercises/servEx_8");
     }
 }

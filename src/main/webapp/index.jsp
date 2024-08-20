@@ -58,7 +58,12 @@
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_8">click here.</a>
     </li>
-
+    <br>
+    <li>
+        [o] 9._ Write a Servlet program to demonstrate the use of setAttribute and getAttribute methods.
+        <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_9">click here.</a>
+    </li>
 </ul>
 </body>
 </html>

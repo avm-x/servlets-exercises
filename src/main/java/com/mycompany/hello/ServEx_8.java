@@ -25,7 +25,7 @@ public class ServEx_8 extends HttpServlet {
         out.println("<h1>ServEx_8: Redirect </h1>");
         out.println("<p>Write a Servlet program to redirect the url by using sendRedirect method and RequestDispatcher interface.</p>");
         out.println("<p></b>After clicking the button, you will be redirect to a redirect page that shows info about the headers</b></p>");
-        out.println("<button id='redirect-btn'>Redirect!</button>");
+        out.println("<button id='redirect-btn'>Redirect with reqDispatchet.include(req, res)!</button>");
         out.println("</BODY>");
         out.println("</HTML>");
 
