@@ -45,13 +45,18 @@
         <br/><a href="http://localhost:8080/servlets-exercises/servEx_6">click here.</a>
     </li>
 <br>
-    <li>[o] 7._ Write a Servlet program to display digital clock in browser.
+    <li>[X] 7._ Write a Servlet program to display digital clock in browser.
         <br/>
         <b>Must be a dynamic clock that updates itself without reloading the page.</b>
         <br/><span style="color: cyan">JDBC, PostgreSQL, JS</span>
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_7">click here.</a>
-
+    </li>
+    <br>
+    <li>
+        [o] 8._ Write a Servlet program to redirect the url by using sendRedirect method and RequestDispatcher interface.
+        <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_8">click here.</a>
     </li>
 
 </ul>

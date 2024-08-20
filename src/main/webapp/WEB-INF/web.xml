@@ -58,6 +58,15 @@
     <servlet-class>ServEx_7</servlet-class>
   </servlet>
 
+  <servlet>
+  <servlet-name>ServEx_8</servlet-name>
+    <servlet-class>ServEx_8</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_8_redirect</servlet-name>
+    <servlet-class>ServEx_8_redirect</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -109,4 +118,13 @@
     <url-pattern>/servEx_7</url-pattern>
   </servlet-mapping>
 
+  <servlet-mapping>
+    <servlet-name>ServEx_8</servlet-name>
+    <url-pattern>/servEx_8</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_8_redirect</servlet-name>
+    <url-pattern>/servEx_8_redirect</url-pattern>
+  </servlet-mapping>
 </web-app>
