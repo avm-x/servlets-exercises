@@ -77,6 +77,11 @@
   <servlet-name>ServEx_9_handleReq</servlet-name>
     <servlet-class>ServEx_9_handleReq</servlet-class>
   </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_10</servlet-name>
+    <servlet-class>ServEx_10</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -146,5 +151,10 @@
   <servlet-mapping>
     <servlet-name>ServEx_9_handleReq</servlet-name>
     <url-pattern>/servEx_9_handleReq</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_10</servlet-name>
+    <url-pattern>/servEx_10</url-pattern>
   </servlet-mapping>
 </web-app>

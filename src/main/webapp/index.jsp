@@ -60,9 +60,21 @@
     </li>
     <br>
     <li>
-        [o] 9._ Write a Servlet program to demonstrate the use of setAttribute and getAttribute methods.
+        [X] 9._ Write a Servlet program to demonstrate the use of setAttribute and getAttribute methods.
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_9">click here.</a>
+    </li>
+    <br>
+    <li>
+        [o] 10._ Write a Servlet program to demonstrate 
+        <br>
+        <b> Exception Handling using the deployment descriptor </b> (i.e. web.xml). && 
+        <br>
+        <b>Exception Handling using RequestDispatcher.</b> && 
+        <br>
+        <b>Exception by using log method.</b>
+        <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_10">click here.</a>
     </li>
 </ul>
 </body>
