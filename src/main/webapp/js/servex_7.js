@@ -61,3 +61,5 @@ setInterval(() => {
     updateDomNodes([dHours, dMinutes, dSeconds], [timeJson.hours, timeJson.minutes, timeJson.seconds]);
     timeJson = incrementTime(timeJson, 1);
     }, 1000);
+
+

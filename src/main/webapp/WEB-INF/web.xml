@@ -82,6 +82,31 @@
   <servlet-name>ServEx_10</servlet-name>
     <servlet-class>ServEx_10</servlet-class>
   </servlet>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/errorDescriptor.jsp</location>
+  </error-page>
+
+  <servlet>
+  <servlet-name>Servlet_Exc_prod</servlet-name>
+    <servlet-class>Servlet_Exc_prod</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>Servlet_Exc_Handler</servlet-name>
+    <servlet-class>Servlet_Exc_Handler</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>Servlet_Exc_Logger</servlet-name>
+    <servlet-class>Servlet_Exc_Logger</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_11</servlet-name>
+    <servlet-class>ServEx_11</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -156,5 +181,25 @@
   <servlet-mapping>
     <servlet-name>ServEx_10</servlet-name>
     <url-pattern>/servEx_10</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet_Exc_prod</servlet-name>
+    <url-pattern>/servlet_Exc_prod</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet_Exc_Handler</servlet-name>
+    <url-pattern>/servlet_Exc_Handler</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet_Exc_Logger</servlet-name>
+    <url-pattern>/servlet_Exc_Logger</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_11</servlet-name>
+    <url-pattern>/servEx_11</url-pattern>
   </servlet-mapping>
 </web-app>
