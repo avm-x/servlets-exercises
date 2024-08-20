@@ -54,7 +54,7 @@
     </li>
     <br>
     <li>
-        [o] 8._ Write a Servlet program to redirect the url by using sendRedirect method and RequestDispatcher interface.
+        [X] 8._ Write a Servlet program to redirect the url by using sendRedirect method and RequestDispatcher interface.
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_8">click here.</a>
     </li>
