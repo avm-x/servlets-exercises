@@ -66,7 +66,7 @@
     </li>
     <br>
     <li>
-        [o] 10._ Write a Servlet program to demonstrate 
+        [X] 10._ Write a Servlet program to demonstrate 
         <br>
         <b> Exception Handling using the deployment descriptor </b> (i.e. web.xml). && 
         <br>
@@ -75,6 +75,13 @@
         <b>Exception by using log method.</b>
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_10">click here.</a>
+    </li>
+    <br>
+    <li>
+        [o] 11._ Write a Servlet program to handle session by using <b>HttpSession interface.</b> <br>
+        write a cookie in user's computer. Cookie name should be "sessionid" and cookie value should be session's id. <br>
+        retrieve the cookie from user's computer and display name and value of it. <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_11">click here.</a>
     </li>
 </ul>
 </body>
