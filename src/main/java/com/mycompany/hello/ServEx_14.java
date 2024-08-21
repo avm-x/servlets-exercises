@@ -1,8 +1,8 @@
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Enumeration;
 
 import jakarta.servlet.ServletConfig;
-import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -24,9 +24,16 @@ public class ServEx_14 extends HttpServlet {
         ServletConfig config = getServletConfig();
 
         // Read the init parameters
-        String username = config.getInitParameter("username");
+        String dName = config.getServletName();
+        Enumeration params = config.getInitParameterNames();
+
+        out.println("<span><b>display-name: </b>" + dName + "</span><br>");
+
+        while(params != null && params.hasMoreElements()){
+            String param = String.valueOf(params.nextElement());
+            out.println("<span><b>Param: </b>" + param + " <b>Value: </b>" + config.getInitParameter(param) + "</span>");
+        };
         
-        out.println("<span><b>Param: </b>" + username + "</span>");
         out.println("</BODY>");
         out.println("</HTML>");
     }

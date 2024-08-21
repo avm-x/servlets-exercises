@@ -99,7 +99,7 @@
     </li>
     <br>
     <li>
-        [o] 14._ Write a program to read and display the Servlet's initial parameter from web.xml.
+        [X] 14._ Write a program to read and display the Servlet's initial parameter from web.xml.
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_14">click here.</a>
         <br>

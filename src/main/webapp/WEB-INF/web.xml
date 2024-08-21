@@ -6,10 +6,6 @@
 
   <display-name>servlet-basic-dir</display-name>
 
-        <init-param>
-            <param-name>username</param-name>
-            <param-value>john_doe</param-value>
-        </init-param>
   <!-- Start of Servlet declaration -->
   <servlet>
     <servlet-name>Welcome</servlet-name>
@@ -135,6 +131,10 @@
   <servlet>
   <servlet-name>ServEx_14</servlet-name>
     <servlet-class>ServEx_14</servlet-class>
+    <init-param>
+      <param-name>username</param-name>
+      <param-value>john_doe</param-value>
+    </init-param>
   </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
