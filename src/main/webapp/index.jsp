@@ -83,6 +83,13 @@
         retrieve the cookie from user's computer and display name and value of it. <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_11">click here.</a>
     </li>
+    <br>
+    <li>
+        [o] 12._ Write a Servlet program to track the session using URL rewriting.
+        <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_12">click here.</a>
+        <br>
+    </li>
 </ul>
 </body>
 </html>
