@@ -117,6 +117,16 @@
   <servlet-name>ServEx_12_tracker</servlet-name>
     <servlet-class>ServEx_12_tracker</servlet-class>
   </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_13</servlet-name>
+    <servlet-class>ServEx_13</servlet-class>
+  </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_13_tracker</servlet-name>
+    <servlet-class>ServEx_13_tracker</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -221,5 +231,15 @@
   <servlet-mapping>
     <servlet-name>ServEx_12_tracker</servlet-name>
     <url-pattern>/servEx_12_tracker</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_13</servlet-name>
+    <url-pattern>/servEx_13</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_13_tracker</servlet-name>
+    <url-pattern>/servEx_13_tracker</url-pattern>
   </servlet-mapping>
 </web-app>
