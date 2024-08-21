@@ -85,7 +85,7 @@
     </li>
     <br>
     <li>
-        [o] 12._ Write a Servlet program to track the session using URL rewriting.
+        [X] 12._ Write a Servlet program to track the session using URL rewriting.
         <br>
         <a href="http://localhost:8080/servlets-exercises/servEx_12">click here.</a>
         <br>
