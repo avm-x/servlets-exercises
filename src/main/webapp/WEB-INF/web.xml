@@ -6,6 +6,10 @@
 
   <display-name>servlet-basic-dir</display-name>
 
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>john_doe</param-value>
+        </init-param>
   <!-- Start of Servlet declaration -->
   <servlet>
     <servlet-name>Welcome</servlet-name>
@@ -127,6 +131,11 @@
   <servlet-name>ServEx_13_tracker</servlet-name>
     <servlet-class>ServEx_13_tracker</servlet-class>
   </servlet>
+
+  <servlet>
+  <servlet-name>ServEx_14</servlet-name>
+    <servlet-class>ServEx_14</servlet-class>
+  </servlet>
   <!-- Start of mapping -->
   <servlet-mapping>
     <servlet-name>Welcome</servlet-name>
@@ -242,4 +251,10 @@
     <servlet-name>ServEx_13_tracker</servlet-name>
     <url-pattern>/servEx_13_tracker</url-pattern>
   </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServEx_14</servlet-name>
+    <url-pattern>/servEx_14</url-pattern>
+  </servlet-mapping>
+
 </web-app>

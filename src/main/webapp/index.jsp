@@ -97,6 +97,12 @@
         <a href="http://localhost:8080/servlets-exercises/servEx_13">click here.</a>
         <br>
     </li>
+    <li>
+        [o] 14._ Write a program to read and display the Servlet's initial parameter from web.xml.
+        <br>
+        <a href="http://localhost:8080/servlets-exercises/servEx_14">click here.</a>
+        <br>
+    </li>
 </ul>
 </body>
 </html>
